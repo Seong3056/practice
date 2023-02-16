@@ -1,0 +1,17 @@
+git init 해당파일을 깃파일로 잡아주게 설정
+
+git add <파일명> 파일명의 파일을 staging area 로 보냄(중간저장소)
+
+git commit -m "commnet" staging area에 있는 파일들을 최종적으로 저장
+
+git status 깃의 현재상황을 보여줌 새로운 파일, 수정된파일, 등등
+
+git log commit 내역을 출력
+
+git config --global user.name(email) " " 사용자이름(이메일) 입력
+
+git remote add "외부주소 별칭" http://~~~  외부주소 별칭설정
+
+git remote -v 설정된 원격주소 확인
+
+git push origin master 마스터의 자식파일을 오리진으로 푸쉬
