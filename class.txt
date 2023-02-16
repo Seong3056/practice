@@ -1,4 +1,4 @@
-git init : 해당파일을 깃파일로 잡아주게 설정
+git init : 해당파일을 깃파일로 잡아주도록 설정
 
 git add <파일명> : 파일명의 파일을 staging area 로 보냄(중간저장소)
 
